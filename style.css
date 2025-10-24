@@ -1,0 +1,87 @@
+/* Estilo general del body y html */
+body, html {
+    background: url(807574.png) center center no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Contenedor principal */
+.contenedor {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+
+/* Título */
+.contenedor h1 {
+    color: darkred;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+/* Párrafos */
+.contenedor p {
+    color: #222;
+    font-size: 18px;
+}
+
+/* Etiquetas */
+.contenedor label {
+    font-family: cursive;
+    color: darkred;
+    font-size: 20px;
+}
+
+/* Input */
+.contenedor input {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid darkred;
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+    width: 80px;
+}
+
+/* Botones */
+.contenedor button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contenedor button:hover {
+    background-color: #a30000;
+}
+
+/* Feedback del juego */
+#feedback {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#attempts {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+}
