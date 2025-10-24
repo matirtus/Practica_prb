@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html lang="es">
 <head>
 <meta charset="utf-8" />
@@ -7,22 +7,16 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Adivina el número (1–100)</h1>
-
-
-<p>He pensado un número entero entre <strong>1</strong> y <strong>100</strong>. Intenta adivinarlo.</p>
-
-
-<label for="guessInput">Tu intento:</label>
-<input id="guessInput" type="number" min="1" max="100" autocomplete="off">
-<button id="submitBtn">Probar</button>
-<button id="resetBtn">Reiniciar</button>
-
-
-<p id="feedback" aria-live="polite"></p>
-<p id="attempts">Intentos: 0</p>
-
-
+    <div>
+        <h1>Adivina el número (1–100)</h1>
+        <p>He pensado un número entero entre <strong>1</strong> y <strong>100</strong>. Intenta adivinarlo.</p>
+        <label for="guessInput">Tu intento:</label>
+        <input id="guessInput" type="number" min="1" max="100" autocomplete="off">
+        <button id="submitBtn">Probar</button>
+        <button id="resetBtn">Reiniciar</button>
+        <p id="feedback" aria-live="polite"></p>
+        <p id="attempts">Intentos: 0</p>
+    </div>
 <script src="script.js"></script>
 </body>
 </html>
